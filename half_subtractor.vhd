@@ -11,17 +11,17 @@ end half_subtractor;
 architecture Behavioral of half_subtractor is
 	component andgate01
 		port (a: in STD_LOGIC;
-				  b: in STD_LOGIC;
-				  c: out STD_LOGIC);
+	              b: in STD_LOGIC;
+		      c: out STD_LOGIC);
 	end component;
 	component xorgate01
 		Port (e: in STD_LOGIC;
-				  f: in STD_LOGIC;
-				  g: out STD_LOGIC);
+		      f: in STD_LOGIC;
+		      g: out STD_LOGIC);
 	end component;
 	component notgate01
 		Port (h: in STD_LOGIC;
-				  i: out STD_LOGIC);
+		      i: out STD_LOGIC);
 	end component;
 	signal j: STD_LOGIC;
 begin
