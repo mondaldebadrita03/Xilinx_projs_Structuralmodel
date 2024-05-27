@@ -11,13 +11,13 @@ end half_adder;
 architecture Behavioral of half_adder is
 	component andgate01
 		Port (a: in STD_LOGIC;
-				  b: in STD_LOGIC;
-				  y: out STD_LOGIC);
+		      b: in STD_LOGIC;
+	              y: out STD_LOGIC);
 	end component;
 	component xorgate01
 		Port (a: in STD_LOGIC;
-				  b: in STD_LOGIC;
-				  y: out STD_LOGIC);
+	              b: in STD_LOGIC;
+		      y: out STD_LOGIC);
 	end component;
 begin
 f1: andgate01 Port map(A, B, cout);
